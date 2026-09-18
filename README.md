@@ -1,33 +1,60 @@
 # Hovernook
 
-Tiny Windows companions that live at the edge of your screen and help without getting in the way.
+Utilidades pequeñas que viven en el borde de la pantalla y te ayudan sin molestar.
+*Tiny Windows companions that live on the edge of your screen and help without getting in the way.*
 
-## Download
+**[⬇ Descargar la última versión](https://github.com/hovernook/hovernook/releases/latest/download/HovernookSetup.exe)** · Windows 10 y 11 · no necesita nada más instalado
 
-👉 **[Download Hovernook for Windows](https://github.com/hovernook/hovernook/releases/latest/download/HovernookSetup.exe)**
+![El panel](docs/panel.png)
 
-Works on Windows 10 and 11. No admin rights needed, and it keeps itself up to date: when a new version is out you get a notice next to the clock and it installs in one click.
+## Qué trae
 
-> Windows may show **"Windows protected your PC"** because the app isn't signed yet. Click **More info → Run anyway**.
+| | |
+|---|---|
+| **Música** | Controles de Spotify y del navegador, portada, letra sincronizada, volumen del sistema y de la app, y elegir por dónde suena. |
+| **Micrófono** | Silencia el micro y, si usas Discord, silencia también el suyo. Te avisa si hablas estando en silencio, y enseña quién está en la llamada. |
+| **Estantería** | Arrastra archivos o texto al borde, quedan ahí un rato, y los sueltas donde quieras. |
+| **Portapapeles** | Todo lo que copias, a mano. Pega con un clic, fija lo que uses mucho, guarda como archivo. |
+| **Rendimiento** | CPU, memoria, gráfica, red, disco y temperaturas, y qué apps se lo están comiendo. |
+| **Notificaciones** | Lo que te avisa (WhatsApp, correo, Slack…) en un sitio, con filtros por app y no molestar. |
+| **Calendario** | Lo siguiente que tienes, con cuenta atrás, vista de semana y mes, y un aviso con botón de *Unirse* diez minutos antes. |
 
-## What's inside
+Enciendes las que quieras; las demás no existen.
 
-- **Music**: a small bubble on the edge of your screen for Spotify and YouTube. Hover it to see what's playing, with controls, synced lyrics, system and per-app volume, audio output switching, a sleep timer and a heads-up when a new song starts.
+## Cómo se usa
 
-More companions on the way.
+Todo vive en una **pestañita** en el borde de la pantalla. Acercas el ratón y se despliega el panel con lo que hayas metido dentro; lo alejas y se recoge. Puedes arrastrarlo a cualquiera de los cuatro bordes, y si arrastras un archivo hacia él se convierte en la estantería para soltarlo ahí.
+
+![La pestaña se despliega](docs/notch.png)
+
+En **Ajustes › Apariencia** montas tu panel arrastrando: metes dentro las utilidades que quieras, en el orden que quieras, cada una entera o en pequeño, y las demás se quedan en el borde con su burbuja.
+
+`Ctrl+Mayús+Alt+Espacio` abre el panel sin apuntar con el ratón. Cada utilidad tiene sus propios atajos, configurables.
+
+## El calendario
+
+Sin contraseñas y sin dar permisos a nadie: se pega la **dirección secreta en formato iCal** que tu calendario ya publica.
+
+- **Google Calendar** → Configuración → tu calendario → *Dirección secreta en formato iCal* → copiar.
+- **Outlook** → Configuración → Calendario → Calendarios compartidos → Publicar → ICS.
+- **Notion** y **Apple** también publican una.
+
+Se pega en el instalador o en Ajustes › Calendario, y es **solo lectura**: Hovernook enseña tu agenda, nunca la toca.
+
+![Conectar el calendario](docs/calendario.png)
+
+## Privacidad
+
+**Nada sale de tu ordenador.** No hay cuentas, ni servidor, ni telemetría. Las notificaciones se leen con la API de Windows y se quedan en memoria; el calendario se descarga directamente desde la dirección que tú pegas; tus ajustes viven en `%LOCALAPPDATA%\Hovernook`. Lo único que Hovernook pide a internet es mirar si hay una versión nueva en esta misma página.
+
+## Instalar y actualizar
+
+Descarga `HovernookSetup.exe`, ábrelo y elige qué quieres. Se instala para tu usuario (`%LOCALAPPDATA%\Programs\Hovernook`), sin permisos de administrador.
+
+Windows puede enseñar el aviso azul de *SmartScreen* porque el instalador no está firmado: **Más información → Ejecutar de todas formas**.
+
+Cuando haya una versión nueva te avisa solo, y tus preferencias se quedan como las tenías. Lo que cambia en cada una está en [CHANGELOG.md](CHANGELOG.md) y dentro de la app, en **Ajustes › Novedades**.
 
 ---
 
-## 🇪🇸 En español
-
-Pequeñas utilidades para Windows que viven en el borde de la pantalla y te ayudan sin molestar.
-
-👉 **[Descargar Hovernook para Windows](https://github.com/hovernook/hovernook/releases/latest/download/HovernookSetup.exe)**
-
-Funciona en Windows 10 y 11, no necesita permisos de administrador y se actualiza solo: cuando hay una versión nueva te avisa junto al reloj y se instala con un clic.
-
-> Windows puede mostrar **"Windows protegió su PC"** porque la app aún no está firmada. Pulsa **Más información → Ejecutar de todas formas**.
-
-- **Música**: una burbuja en el borde de la pantalla para Spotify y YouTube. Al pasar el ratón muestra la canción con controles, letra sincronizada, volumen del sistema y de cada app, salida de audio, temporizador para dormir y un aviso cuando empieza una canción nueva.
-
-Más utilidades en camino.
+Hecho para uso propio y para los amigos. Si algo va raro, abre un *issue* contando qué hacías: la app deja un registro en `%LOCALAPPDATA%\Hovernook\problems.log` que ayuda bastante.
