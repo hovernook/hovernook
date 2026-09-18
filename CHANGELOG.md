@@ -2,6 +2,13 @@
 
 Lo que ha ido ganando Hovernook. Lo mismo se ve dentro de la app, en Ajustes > Novedades.
 
+## 1.6.0 - 18 septiembre 2026
+
+- El calendario te avisa diez minutos antes con una tarjeta en la esquina: cuánto falta, qué es, dónde, y un botón de Unirse si la reunión trae enlace. Sale también sobre juegos y vídeo a pantalla completa. Para verla sin esperar: clic derecho en el calendario › «Ver cómo avisa».
+- Ctrl+Mayús+Alt+Espacio abre y cierra el panel, para no tener que apuntar a la pestañita.
+- Notificaciones: clic derecho sobre una fila para silenciar esa app, y «no molestar» de media hora, una hora o hasta mañana.
+- En pantallas de portátil el panel arranca con las tarjetas en pequeño, que es lo que cabe, en vez de dejar fuera a la mitad.
+
 ## 1.5.1 - 18 septiembre 2026
 
 - Al instalar, si enciendes el calendario, te pide ahí mismo su dirección: te lleva a la página de Google, la pegas de un botón y el nook ya trae tus citas desde el primer minuto. Se puede saltar y hacerlo luego.
