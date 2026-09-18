@@ -2,6 +2,10 @@
 
 Lo que ha ido ganando Hovernook. Lo mismo se ve dentro de la app, en Ajustes > Novedades.
 
+## 1.6.1 - 18 septiembre 2026
+
+- Dentro del panel, pulsar la portada o el título de la canción vuelve a abrir Spotify (o el navegador donde suene).
+
 ## 1.6.0 - 18 septiembre 2026
 
 - El calendario te avisa diez minutos antes con una tarjeta en la esquina: cuánto falta, qué es, dónde, y un botón de Unirse si la reunión trae enlace. Sale también sobre juegos y vídeo a pantalla completa. Para verla sin esperar: clic derecho en el calendario › «Ver cómo avisa».
