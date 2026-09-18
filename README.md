@@ -5,9 +5,11 @@ Utilidades pequeñas que viven en el borde de la pantalla y te ayudan sin molest
 
 **[⬇ Descargar la última versión](https://github.com/hovernook/hovernook/releases/latest/download/HovernookSetup.exe)** · Windows 10 y 11 · no necesita nada más instalado
 
-![El panel](docs/panel.png)
+![El panel abierto, con la música tiñendo el acento del color de la portada](docs/panel.png)
 
 ## Qué trae
+
+![Las utilidades](docs/utilidades.png)
 
 | | |
 |---|---|
