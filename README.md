@@ -55,6 +55,10 @@ Windows puede enseñar el aviso azul de *SmartScreen* porque el instalador no es
 
 Cuando haya una versión nueva te avisa solo, y tus preferencias se quedan como las tenías. Lo que cambia en cada una está en [CHANGELOG.md](CHANGELOG.md) y dentro de la app, en **Ajustes › Novedades**.
 
+Si algo va raro, abre un *issue* contando qué hacías: la app deja un registro en `%LOCALAPPDATA%\Hovernook\problems.log` que ayuda bastante.
+
 ---
 
-Hecho para uso propio y para los amigos. Si algo va raro, abre un *issue* contando qué hacías: la app deja un registro en `%LOCALAPPDATA%\Hovernook\problems.log` que ayuda bastante.
+© 2026 Hovernook. Todos los derechos reservados. El programa se comparte para usarlo tal cual; no se publica su código y no se permite redistribuirlo, modificarlo ni venderlo.
+
+*All rights reserved. Hovernook is shared to be used as it is; the source is not published, and redistributing, modifying or selling it is not allowed.*
